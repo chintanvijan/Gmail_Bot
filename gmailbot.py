@@ -42,4 +42,4 @@ def login():
 	driver.quit()
 	#display.stop()
 	#driver.find_element_by_id(":nk").click()
-login()
+
