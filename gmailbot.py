@@ -13,14 +13,14 @@ def login():
 	#w=driver.page_source
 	#print(w)
 
-	driver.find_element_by_id('Email').send_keys("chintanvijan@gmail.com")
+	driver.find_element_by_id('Email').send_keys("your_email")
 
 
 	driver.find_element_by_id("next").click()
 	time.sleep(4)
 	#w=driver.page_source
 	#print(w)
-	driver.find_element_by_id("Passwd").send_keys("mushimushi")
+	driver.find_element_by_id("Passwd").send_keys("password")
 	driver.find_element_by_id("signIn").click()
 	#print("Success")
 	time.sleep(4)
@@ -29,7 +29,7 @@ def login():
 	time.sleep(4)
 	#w=driver.page_source
 	#print(w)
-	driver.find_element_by_name("to").send_keys("chintanvijan1998@gmail.com")
+	driver.find_element_by_name("to").send_keys("client_email")
 	driver.find_element_by_name("subjectbox").send_keys("Subject")
 
 	driver.find_element_by_xpath('//div[@id=":nk"]').send_keys("Content!")
